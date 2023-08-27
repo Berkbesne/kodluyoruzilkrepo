@@ -25,3 +25,16 @@ Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden
 2. [2,3,4,8,7,9,5,15,6]
 3. [2,3,4,5,7,9,8,15,6]
 4. [2,3,4,5,6,9,8,15,6]
+## Soru
+[16,21,11,8,12,22] -> Merge Sort  
+• Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.  
+Dizi her aşamada ikiye bölünür ve en sonda sıralama yapılır  
+[16 21 11 ] [ 8 12 22]  
+[16 21] [ 11] [ 8 12] [22]  
+[16] [21] [11] [8] [12] [22]  
+[16 21] [11] [8 12] [22]  
+[11 16 20] [8 12 22]  
+-----> [8 11 12 16 20 22]  
+
+Big-O gösterimini yazınız.  
+Bu durumda O(nlogn)şeklinde ifade edilir.
